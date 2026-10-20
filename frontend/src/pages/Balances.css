@@ -1,0 +1,64 @@
+.balances-page {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.balance-stats-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 16px;
+}
+
+.balance-stat-card {
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-label {
+  font-size: 0.71875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--slate-400);
+}
+
+.stat-value {
+  font-size: 1.375rem;
+  font-weight: 800;
+}
+
+.stat-sub {
+  font-size: 0.75rem;
+  color: var(--slate-400);
+}
+
+.balances-table-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.balance-highlight {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.balance-info-callout {
+  padding: 20px 24px;
+  background: var(--slate-50);
+  border: 1px solid var(--slate-200);
+}
+
+.callout-title {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--slate-800);
+  margin-bottom: 6px;
+}
+
+.callout-text {
+  font-size: 0.84375rem;
+  color: var(--slate-600);
+  line-height: 1.6;
+}
